@@ -1,0 +1,69 @@
+body,html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.barra {
+    width: 20%;
+    /* Ancho de la barra izquierda, 20% de la página */
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.barra a {
+    color: white;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s;
+    /* Transición suave para el color del texto */
+}
+
+.barra a:hover {
+    color: #333;
+    /* Cambio de color del texto al pasar el ratón */
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.fila {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Colores para las filas */
+.fila:nth-child(1) {
+    background-color: #12b4dd;
+    /* Rosa */
+}
+
+.fila:nth-child(2) {
+    background-color: #c7f815;
+    /* Azul claro */
+}
+
+.fila:nth-child(3) {
+    background-color: #ff7b00;
+    /* Verde claro */
+}
+
+.fila:nth-child(4) {
+    background-color: #ff0000;
+    /* Rosa claro */
+}
+
+h2 {
+    margin-bottom: 10px;
+}
